@@ -55,7 +55,7 @@ function gameLoop(){
             ctx.font = '30px serif';
             ctx.strokeText(`Press Space to play again`, board.width/2, board.height/2 + 25);
         }else{
-            ctx.strokeText('Snake', board.width/2, board.height/2 - 25);
+            ctx.strokeText('Snek', board.width/2, board.height/2 - 25);
             ctx.font = '30px serif';
             ctx.strokeText(`Press Space to play`, board.width/2, board.height/2 + 25);
         }
